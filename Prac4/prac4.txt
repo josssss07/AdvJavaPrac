@@ -1,0 +1,6 @@
+RETRIEVING INFORMATION FROM JSP REGISTRATION PAGE 
+
+- make a home.jsp page that will be a from, we can also add a servelt in this project 
+in this home.jsp page, we have a from action that says post, the action will go to a details or prcoess.jsp page
+this page will show and retrive all our data that we submit into our page
+we can also add this data into a database 
