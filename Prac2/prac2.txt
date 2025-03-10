@@ -1,0 +1,12 @@
+CONNECTION WITH MARIADB 
+
+- open maria db and make a new db
+use that db for the prac
+create a few users along with some attributes 
+
+- make a new web project 
+in the web project make a home.jsp page that will accept a user id/name and a password 
+
+- make a new page called process.jsp 
+in this page create a prepared statement that will pass the id and password and verify them 
+once it is verified, display all user data in the page 
