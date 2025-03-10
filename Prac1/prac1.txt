@@ -1,0 +1,6 @@
+CREATE A BASIC JAVA WEB PROJECT: 
+
+make the web project 
+add the tommcat server 
+once tomcat server is added, add the jsp files in the webinf folder 
+run it 
