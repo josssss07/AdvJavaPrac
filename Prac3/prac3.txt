@@ -1,0 +1,3 @@
+Connection to database 2
+
+same as prac 3 just edit the home.jsp and process.jsp a bit 
