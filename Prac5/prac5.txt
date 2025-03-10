@@ -1,0 +1,7 @@
+JAVA WEB PROJECTS AND AJAX
+
+- create a web project 
+in that web project create 2 files in webapp folder
+ajaxdemo.jsp and ajaxprocess.jsp
+these 2 files will do the ajax stuff 
+trust me ig??? 
