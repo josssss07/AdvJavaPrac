@@ -1,0 +1,32 @@
+spring starter project 
+maven 
+make the project name whatever its supposed to be and name the package the same thing 
+tick Lombok,spring datajpa, sping web and mysql 
+finish the project 
+
+
+
+open spring
+right click new project spring starter project 
+next
+package, name should be same (if user-1 then same for all)
+type maven
+java version 17
+next
+lombok, jpa, MySQL, spring web.
+next 
+finish 
+(...wait...)
+src/main/java 
+com.example.user - put files
+1st : User.java (class file)
+2nd: User controller.java (class file)
+new other interface for-
+3rd: UserService.java
+4th: UserRepo.java
+
+new class 
+5th: UserServiceImpl.java
+
+application prop:
+add your connection code
