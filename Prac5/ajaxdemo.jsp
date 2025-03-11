@@ -3,27 +3,25 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>AJAX Demo</title>
-<script src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript"
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script type="text/javascript">
-    function check() {
-        alert("Call received");
-        $.ajax({
-            type: "POST",
-            url: "ajaxprocess.jsp", // Backend JSP file
-            data: {
-                input: $('#ip').val(),
-                output: $('#op').val()
-            },
-            success: function(response) {
-                $('#output').append("<p>" + response + "</p>");
-            },
-            error: function() {
-                alert("Error in AJAX call");
-            }
-        });
-    }
+function check() {
+alert("call received");
+$.ajax({
+type: "post",
+url: "ajaxprocess.jsp", // here you can use servlet, jsp, etc
+data: "input=" + $('#ip').val() + "&output=" + $('#op').val(),
+success: function (msg) {
+$('#output').append(msg);
+},
+error: function () {
+alert("error in alert");
+}
+});
+}
 </script>
+<title>AJAX Demo</title>
 </head>
 <body>
     <h2>AJAX Request Demo</h2>

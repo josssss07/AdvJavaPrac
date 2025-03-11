@@ -6,6 +6,8 @@ create a few users along with some attributes
 
 - make a new web project 
 in the web project make a home.jsp page that will accept a user id/name and a password 
+download the java and mariadb jdbc driver 
+right click on the project and add the driver to the build path 
 
 - make a new page called process.jsp 
 in this page create a prepared statement that will pass the id and password and verify them 
